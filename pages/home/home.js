@@ -1,4 +1,3 @@
-// pages/home/home.js
 const {http} = require('../../lib/http.js');
 
 Page({
@@ -70,4 +69,5 @@ Page({
   hideUpdateConfirm(){
     this.setData({ visibleUpdateConfirm: false })
   }
+  
 })

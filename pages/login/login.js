@@ -18,7 +18,7 @@ Page({
     })
   },
   loginMe(code, iv, encrypted_data){
-    http.post("/sign_in/mini_program_user", {
+    http.post('/sign_in/mini_program_user', {
       code,
       iv,
       encrypted_data,
@@ -33,5 +33,8 @@ Page({
   saveMessage(response){
     wx.setStorageSync('me', response.data.resource)
     wx.setStorageSync('X-token', response.header["X-token"])
+  },
+  dontLogin(){
+     
   }
 })

@@ -1,16 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/login/login",
-    "pages/binding/binding",
     "pages/home/home",
-    "pages/tomato/tomato",
-    "pages/me/me"
+    "pages/binding/binding",
+
+    "pages/me/me",
+    "pages/tomato/tomato"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "番茄闹钟",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#515151",
@@ -31,5 +32,6 @@
         "selectedIconPath": "images/me-active.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap79.json"
 }

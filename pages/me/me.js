@@ -1,4 +1,3 @@
-// pages/me/me.js
 const { http } = require('../../lib/http.js');
 
 Page({
